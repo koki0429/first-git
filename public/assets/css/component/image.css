@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.c-img_cooking {
+    width: 350px;
+    height: auto;
+}
+
+.c-img_product {
+    width: 213px;
+    height: auto;
+}
+
+.c-img_showProduct {
+    width: 500px;
+    height: auto;
+}

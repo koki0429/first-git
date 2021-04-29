@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+#scroll_to_top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.c-button {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll_up {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.5s;
+}
+
+.scroll_up.done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.c-formButton {
+    color: #000;
+    font-size: 20px;
+    font-family: serif;
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.c-formButton:hover {
+    color: #fff;
+    background: #000;
+}
